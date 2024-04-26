@@ -58,7 +58,7 @@ export default function Transcript({ transcribedData }: Props) {
     return (
         <div
             ref={divRef}
-            className='w-full flex flex-col my-2 p-4 max-h-[20rem] overflow-y-auto'
+            className='w-full flex flex-col my-2 p-4 max-h-[40rem] overflow-y-auto'
         >
             {transcribedData?.chunks &&
                 transcribedData.chunks.map((chunk, i) => (
